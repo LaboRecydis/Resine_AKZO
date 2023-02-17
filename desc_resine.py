@@ -47,8 +47,8 @@ if __name__=="__main__":
 
     st.video(video_bytes)
     
-    st.write("Point éclair")
-    st.image(img5, width=250)
+    st.write("Point éclair = 115,0 °C")
+    st.image(img5)
   
 
 
