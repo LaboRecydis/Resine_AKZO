@@ -49,6 +49,7 @@ if __name__=="__main__":
     
     st.write("Point éclair = 115,0 °C")
     st.image(img5)
+    st.write("Pas de chlore (test de flamme négatif au chlore")
   
 
 
