@@ -23,6 +23,7 @@ if __name__=="__main__":
     st.title("Analyses pour déterminer la fillière de traitement adéquate")
 
     st.write("Auteur : Brahim AIT OUALI  - Technicien chimiste")
+    st.write("GRV de résines AKZO non pompables")
     st.write("Pâteux visqueux non pompable")
    
     # Display the LOGO
@@ -35,8 +36,7 @@ if __name__=="__main__":
     st.sidebar.image(img2, width=250)
 
 
-    st.write("GRV de résines AKZO non pompables")
-
+    
     st.write("Photos du déchet")
     st.image(img4, width=250)
     st.image(img3, width=250)
