@@ -30,8 +30,8 @@ if __name__=="__main__":
     img2 = Image.open("IMG_RECYDIS.jfif") 
     img3 = Image.open("photo_resine1.jpg")
     img4 = Image.open("photo_resine3.jpg")
-    st.sidebar.image(img1, width=250)
-    st.sidebar.image(img2, width=250)
+    st.image(img1, width=250)
+    st.image(img2, width=250)
 
 
     st.write("GRV de résines AKZO non pompables")
