@@ -40,7 +40,10 @@ if __name__=="__main__":
     st.image(img3, width=250)
     st.image(img4, width=250)
     st.write("Vidéos : texture du déchet")
-    st.video(video_resine, format="video/mp4", start_time=0)
+    video_file = open('video_resine.mp4', 'rb')
+    video_bytes = video_file.read()
+
+    st.video(video_bytes)
   
 
 
