@@ -35,7 +35,7 @@ if __name__=="__main__":
 
 
     st.write("GRV de résines AKZO non pompables")
-    st.sidebar.image(img2, width=250)
+
     st.write("Photos du déchet")
     st.image(img3, width=250)
     st.image(img4, width=250)
